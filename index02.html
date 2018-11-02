@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index02.css" type="text/css" />
+		<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lte IE 8]><script src="js/selectivizr.js"></script><![endif]-->
+	<style>
+			/*页面切换代码*/
+.waijie{
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #000;
+	margin-top: -200%;
+	z-index:2;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.waijie:target{
+	margin-top: 0%;
+	background-color: #b1e583;
+}
+		/*页面切换结束*/
+		
+	</style>
+</head>
+	<body>
+		<!--外接文本-->
+		<asider>
+				<div id="asider" class="waijie " >
+				<div class="retrun"><a  href="#con" >返回网页版</a></div>
+		<div id="center">
+			<h1>个人简历</h1><br /><br />
+		</div>
+		<table width="80%" border="1" align="center" cellpadding="10px">
+			<tr >         
+			<th>姓&nbsp;名</th>
+			<td >xxx</td>
+			<th>性别</th><td>男</td>
+			<th  id="p" rowspan="3" colspan="2" ><img src="images/p.jpg" alt="头像"/></th>
+			
+			</tr>
+			<tr>
+			<th>出生年月</th>	
+			<td >1XXX-0XX-XX</td>
+			<th>XX</th>
+			<td>XX</td>
+			</tr>
+			<tr>
+				<th>学历</th>
+				<td >XX</td>
+				<th>专业</th>
+				<td>XXXX</td>
+			</tr>
+			<tr>
+				<th>毕业院校</th>
+				<td class="td_1"><br />XXXXXXX<br /><br /></td>
+				<th>联系电话</th>
+				<td>XXXXXX/td>
+				<th>现住址</th>
+				<td>XXXXXXXX</td>
+			</tr>
+			<tr>
+				<th>个人简介</th>
+				<td class="td_1"><p>专科阶段主修:XXXXXXXXXXX</p>
+				<p>能力：XXXXXXXXXXXX.
+					特长：1，XXXXXX。2，XXXXXXXXXXXXXX</p>
+				<p>计算机能力：XXXXXXXXXXXXXXXX</p>
+				<p>外语水平：XXXXXX</p>
+				</td>
+				<th>自我评价</th>
+				<td colspan="3"><p>本XXXXXXXXXXXXXXXXXXXX。</p></td>
+	
+			</tr>
+		<tr>
+			<td colspan="6" align="center" height="100px">感谢您浏览完此页面，请联系我吧XXXXXXX</td>
+		</tr>
+				
+		</table>
+		</div>
+			</asider>
+			<!--外接结束-->
+		
+			<!--主页面-->
+		<div id="con">
+		<div id="frame">
+			<div class="wenben"><a class="a_02" href="#asider">文本版简历</a>
+				<br />
+				<br />
+				<a class="a_02" href="index.html">首  页 </a>
+			</div>
+			
+			<section class="central_part">
+				<header class="header">
+				<canvas class="canvas">
+				</canvas>
+			<div class="text">
+				<strong>
+				<h1>姓名：XXXXX</h1>
+				<p>XXXXXXX</p>
+				<p>XXXXXXXXXXX</p>
+				</strong>
+			</div>
+				</header>
+				<section>
+					<!--1-->
+					<div class="main">
+					<div class="main_top">
+						<p>基本概况</p>
+					</div>
+					<p>求职意向：XXXXX</p>
+					<p>目前住址：XX</p>
+					<p>专科阶段主修：XXXXXXX</p>
+					</div>
+					<div class="main">
+					<div class="main_top">
+						<p>特长</p>
+					</div>
+					<p>1.XXXXXX。<p>2.XXXXXX。</p> <p>3.XXXXXX</p> <p>4.XXXXXX </p><p>5.XXXXXX</p>
+					</div>
+					<!--2-->
+					<div class="main">
+					<div class="main_top">
+						<p>基本技能</p>
+					</div>
+					<!--技能条-->
+					<nav class="clo">
+					<ul id="skill">
+				<li><span class="expand html_01"></span><p>HTML</p></li>
+				<li><span class="expand css"></span><p>CSS</p></li>
+				<li><span class="expand HBuilder"></span><p>HBuilder</p></li>
+				<li><span class="expand photoshop"></span><p>Photoshop</p></li>
+				<li><span class="expand html5"></span><p>HTML 5</p></li>
+				<li><span class="expand css3"></span><p>CSS 3</p></li>
+				<li><span class="expand javascript"></span><p>JAVASCRIPT</p></li>
+				<li><span class="expand jQuery"></span><p>JQUERY</p></li>
+					</ul>
+					</nav>
+					<!--技能条结束-->
+					</div>
+					<!---->
+					<div class="main">
+					<div class="main_top">
+						<p>作品</p>
+					</div>
+						<div class="monitr" style="height: 165px;">
+							<a class="a_03" href="PROJECT_1.html"><img src="images/monitr02.png" alt="作品图片" /></a>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+		</div>
+			<!--主页面结束-->
+	</body>
+</html>
